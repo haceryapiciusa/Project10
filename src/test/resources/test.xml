@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="username" value="nigeria_tenant_admin"></parameter>
+    <parameter name="password" value="TnvLOl54WxR75vylop2A"></parameter>
+    <parameter name="path" value="/Users/haceryapici/Desktop/Selenyum/chromedriver"></parameter>
+    <parameter name="name" value="Hacer"></parameter>
+    <parameter name="item" value="Item"></parameter>
+
+    <test verbose="2" preserve-order="true" name="/Users/haceryapici/Documents/Project10/src/test/resources/test.xml">
+<!--        <parameter name="name" value="Hacer"></parameter>-->
+        <classes>
+        <class name="Project10"></class>
+        </classes>
+    </test>
+</suite>
