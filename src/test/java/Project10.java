@@ -34,7 +34,7 @@ public class Project10 {
 
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     @Parameters({"name"})
     public void ItemCategories(String name) throws InterruptedException {
         //Click Item Categories
@@ -53,7 +53,7 @@ public class Project10 {
         driver.findElement(By.cssSelector("mat-dialog-container ms-save-button")).click();
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     @Parameters({"item"})
     public void ItemTypes(String item){
         //Item types
@@ -80,6 +80,7 @@ public class Project10 {
         driver.findElement(By.cssSelector("span[class='mat-option-text']")).click();
         //save
         driver.findElement(By.cssSelector("ms-save-button button")).click();
+
     }
 
     @AfterClass
